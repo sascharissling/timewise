@@ -20,4 +20,5 @@ body {
   background-color: $backgroundColor;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }

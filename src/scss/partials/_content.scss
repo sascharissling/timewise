@@ -1,9 +1,18 @@
 .content {
   display: flex;
   flex-direction: column;
+  height: 80vh;
+  margin-top: 10px;
 
   .content__box {
     display: flex;
     flex-direction: row;
+    height: 70px;
+    background-color: $brightColor;
+    box-shadow: 4px 6px 28px -9px rgba(0, 0, 0, 0.75);
+    margin-bottom: 3px;
+  }
+  .content__box--alternate {
+    background-color: #333;
   }
 }
