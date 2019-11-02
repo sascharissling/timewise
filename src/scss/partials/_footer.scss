@@ -1,0 +1,18 @@
+footer {
+  height: 70px;
+  display: flex;
+  flex: none;
+  background-color: $backgroundColor;
+  box-shadow: 4px 6px 28px -9px rgba(0, 0, 0, 0.75);
+  justify-content: space-around;
+  align-items: stretch;
+  .footer__button {
+    border-radius: 15px;
+    background-color: $brightColor;
+    margin: 5px;
+    flex-grow: 1;
+  }
+  .footer__button--grow {
+    flex-grow: 3;
+  }
+}

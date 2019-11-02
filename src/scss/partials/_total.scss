@@ -1,0 +1,15 @@
+.total {
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+
+  .total__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    size: 50px;
+    background-color: $brightColor;
+    border-radius: 15px;
+    padding: 5px;
+  }
+}

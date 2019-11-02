@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/sascharissling/timewise.git"
   },
-  "author": "",
+  "author": "Sascha Rissling",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sascharissling/timewise/issues"
@@ -19,7 +19,8 @@
   "homepage": "https://github.com/sascharissling/timewise#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "posthtml-include": "^1.3.2",
+    "posthtml": "^0.12.0",
+    "posthtml-modules": "^0.4.2",
     "sass": "^1.23.3"
   }
 }
