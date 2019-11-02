@@ -6,8 +6,18 @@
 
 // Variables Start
 
+$backgroundColor: #5cdb95;
+$subColor1: #8ee4af;
+$subColor2: #379638;
+$headingColor: #05386b;
+$brightColor: #edf5e1;
+
 // Variables End
 
 body {
-  background-color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: $backgroundColor;
+  display: flex;
+  flex-direction: column;
 }
