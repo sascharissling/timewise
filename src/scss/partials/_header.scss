@@ -8,5 +8,22 @@ header {
   .wrap {
     color: $brightColor;
     background-color: $headingColor;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    @keyframes example {
+      0% {
+        background-color: red;
+      }
+      33% {
+        background-color: green;
+      }
+      66% {
+        background-color: blue;
+      }
+      100% {
+        background-color: $headingColor;
+      }
+    }
   }
 }

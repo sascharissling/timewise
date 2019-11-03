@@ -15,9 +15,10 @@
     max-height: 60px;
     border-radius: 15px;
     padding: 5px;
+    box-shadow: 4px 6px 10px -9px rgba(0, 0, 0, 0.75);
   }
   .content__box--alternate {
-    background-color: $backgroundColor;
+    background-color: transparent;
     color: $brightColor;
     border: 2px solid $brightColor;
 

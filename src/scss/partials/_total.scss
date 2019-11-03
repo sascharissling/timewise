@@ -11,12 +11,17 @@
     justify-content: space-between;
     align-items: center;
     size: 50px;
-    background-color: $brightColor;
+    background-color: $headingColor;
     border-radius: 15px;
     padding: 5px;
+    box-shadow: 4px 6px 10px -9px rgba(0, 0, 0, 0.75);
+    h3 {
+      color: $brightColor;
+    }
     .wrap {
       color: $brightColor;
       background-color: $headingColor;
+      box-shadow: 4px 6px 10px -9px rgba(0, 0, 0, 0.75);
     }
   }
 }

@@ -12,6 +12,11 @@ footer {
     border-radius: 50%;
     padding: 12px 15px;
     color: $brightColor;
+    &:hover {
+      border-radius: 10px;
+      background-color: green;
+      box-shadow: 4px 6px 28px -9px rgba(0, 0, 0, 0.75);
+    }
   }
 
   .footer__input {
