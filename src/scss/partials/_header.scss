@@ -5,4 +5,8 @@ header {
   flex: none;
   background-color: $backgroundColor;
   box-shadow: 4px 6px 28px -9px rgba(0, 0, 0, 0.75);
+  .wrap {
+    color: $brightColor;
+    background-color: $headingColor;
+  }
 }

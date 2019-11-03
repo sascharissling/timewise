@@ -1,8 +1,12 @@
-h1,
+h1 {
+  color: $headingColor;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
   color: $headingColor;
+  font-size: 14px;
 }

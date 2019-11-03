@@ -2,20 +2,25 @@
   display: flex;
   flex-direction: column;
   height: auto;
-  flex-grow: 3;
+  flex-grow: 1;
+  width: 100vw;
+  max-width: 700px;
 
   .content__box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color: $brightColor;
     max-height: 60px;
     border-radius: 15px;
     padding: 5px;
   }
   .content__box--alternate {
-    background-color: #333;
+    background-color: $backgroundColor;
     color: $brightColor;
+    border: 2px solid $brightColor;
+
     h3,
     h4 {
       color: $brightColor;

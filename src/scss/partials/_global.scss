@@ -14,11 +14,25 @@ $brightColor: #edf5e1;
 
 // Variables End
 
+// html {
+//   font-size: 1em;
+//   color: #000;
+//   font-family: "Comic Sans MS", "Comic Sans", cursive;
+// }
+
 body {
   margin: 0;
   padding: 0;
   background-color: $backgroundColor;
   display: flex;
   flex-direction: column;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   min-height: 100vh;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
 }
