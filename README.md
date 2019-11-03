@@ -2,6 +2,12 @@
 
 This is an app to show how I might spend my day these days.
 
+### Screenshots
+
+|          mobile          |         full screen          |
+| :----------------------: | :--------------------------: |
+| ![](./assets/mobile.png) | ![](./assets/fullscreen.png) |
+
 ## Tools used
 
 `Flex-Box`  

@@ -10,7 +10,7 @@ header {
     background-color: $headingColor;
     animation-name: example;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     @keyframes example {
       0% {
         background-color: red;
