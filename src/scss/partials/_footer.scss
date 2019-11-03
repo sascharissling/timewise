@@ -1,18 +1,28 @@
 footer {
-  height: 70px;
+  height: 60px;
   display: flex;
-  flex: none;
   background-color: $backgroundColor;
   box-shadow: 4px 6px 28px -9px rgba(0, 0, 0, 0.75);
-  justify-content: space-around;
-  align-items: stretch;
+  justify-content: center;
+  align-items: center;
+
   .footer__button {
+    background-color: $headingColor;
+    margin: 5px;
+    border-radius: 50%;
+    padding: 12px 15px;
+    color: $brightColor;
+  }
+
+  .footer__input {
     border-radius: 15px;
+    max-width: 300px;
     background-color: $brightColor;
     margin: 5px;
-    flex-grow: 1;
+    padding: 12px 20px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
   }
-  .footer__button--grow {
+  .footer__input--grow {
     flex-grow: 3;
   }
 }

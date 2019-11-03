@@ -2,14 +2,21 @@
   display: flex;
   flex-direction: column;
   height: 70px;
+  width: 100vw;
+  max-width: 700px;
 
   .total__box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     size: 50px;
     background-color: $brightColor;
     border-radius: 15px;
     padding: 5px;
+    .wrap {
+      color: $brightColor;
+      background-color: $headingColor;
+    }
   }
 }
