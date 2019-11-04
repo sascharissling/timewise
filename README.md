@@ -1,6 +1,9 @@
-## Timewise
+# Timewise
 
 This is an app to show how I might spend my day these days. 
+
+## Live
+https://timewise.sascharissling.now.sh
 
 ### Screenshots
 
